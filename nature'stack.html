@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="NatureStack by AkunaFarms - Premium herbs, spices, and wellness products from our farm to your kitchen.">
+    <meta name="keywords" content="herbs, spices, wellness, natural products, AkunaFarms, herbal teas, essential oils, fresh herbs">
+    <meta name="author" content="Vickie Brown">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NatureStack | AkunaFarms</title>
+    <link rel="canonical" href="https://AkunaFarms.com/naturestack" />
+    <meta property="og:title" content="NatureStack by AkunaFarms" />
+    <meta property="og:description" content="Explore our range of premium herbs, spices, and wellness products." />
+    <meta property="og:image" content="https://AkunaFarms.com/herbs-banner.jpg" />
+    <meta property="og:url" content="https://AkunaFarms.com/naturestack" />
+    <meta property="og:type" content="website" />
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), url('herbs-banner.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product-card .price {
+      font-weight: bold;
+      color: #28a745;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .footer {
+      background-color: #2e2e2e;
+      color: #ccc;
+      padding: 20px 0;
+    }
+
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" alt="NatureStack Logo" style="height: 40px;" class="me-2">
+      NatureStack
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container">
+    <h1>NatureStack by AkunaFarms</h1>
+    <p>Delivering the best of nature — premium herbs and spices, fresh, dried, and blended, straight from our farm to your kitchen.</p>
+    <a href="#products" class="btn btn-success mt-4">Explore Products</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about-us" class="container my-5">
+  <div class="row">
+      <div class="col-md-6">
+        <h2>About NatureStack</h2>
+        <p>NatureStack is the herbs & spices wing of AkunaFarms. We focus on cultivating, drying, blending, and distributing natural herbs, spices, and wellness products grown without synthetic chemicals. Our mission is to bring freshness, wellness, and purity to every home.</p>
+        <ul>
+          <li>Fresh & dried herbs and spices</li>
+          <li>Mixed spices: curry, all-purpose, jollof, beef & chicken</li>
+          <li>Herbal teas and natural health drinks</li>
+          <li>Essential oils and hair boosters</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <!-- Bootstrap Carousel -->
+      <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slide1.jpg" class="d-block w-100" alt="Nature product 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide2.jpg" class="d-block w-100" alt="Nature product 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide3.jpg" class="d-block w-100" alt="Nature product 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <section class="mt-4">
+        <h3>About Founder</h3>
+        <img src="images/founder.jpg" alt="Founder" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+        <p>NatureStack is proudly owned and managed by a creative web developer with strong skills in frontend development. As a tech-savvy herbalpreneur, the founder combines passion for clean code with a love for nature’s remedies — crafting not only wellness products, but also engaging and responsive web experiences.</p>
+      </section>
+  </div>
+</div>
+</section>
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h2 class="section-title">Why Choose NatureStack?</h2>
+            <p>At NatureStack, we believe in the power of nature to heal and nourish. Our products are carefully sourced and crafted to ensure the highest quality and effectiveness. From our farm to your table, we bring you the best of what nature has to offer.</p>
+            
+            <section class="mt-4">
+            <h3>Our Commitment:</h3>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle text-success"></i> Organic and sustainably sourced ingredients</li>
+                <li><i class="fas fa-check-circle text-success"></i> Handcrafted blends for maximum flavor and health benefits</li>
+                <li><i class="fas fa-check-circle text-success"></i> Eco-friendly packaging</li>
+                <li><i class="fas fa-check-circle text-success"></i> Customer satisfaction guaranteed</li>
+            </ul>
+</section>
+        <!-- New buttons and product card -->
+        <div class="product-card d-inline-block text-center shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="images/portfolio-snapshot.jpg" alt="Portfolio Snapshot" class="img-fluid mb-3">
+            <p>As a frontend developer, I also create engaging web experiences. Check out my portfolio to see how I blend creativity with technology.</p>
+          <a href="#contact" class="btn btn-outline-success me-3">Hire Me</a>
+          </div>
+          <div class="card product-card d-inline-block" style="width: 18rem;">
+            <img src="portfolio-snapshot.jpg" class="card-img-top" alt="Portfolio Preview">
+            <div class="card-body">
+              <h5 class="card-title">View My Work</h5>
+              <p class="card-text">Check out a few of my recent frontend projects and UI designs.</p>
+              <a href="#portfolio" class="btn btn-success">View Portfolio</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Most Selling Products</h2>
+    <div class="row g-4">
+      <!-- Product cards here -->
+        <div class="col-md-4">
+            <div class="card product-card">
+            <img src="herbal-tea.jpg" class="card-img-top" alt="Herbal Tea">
+            <div class="card-body">
+                <h5 class="card-title">Herbal Tea Blend</h5>
+                <p class="card-text">A soothing blend of chamomile, peppermint, and lemongrass. Perfect for relaxation.</p>
+                <p class="price">$12.99</p>
+                <a href="#" class="btn btn-success">Add to Cart</a>
+            </div>
+        </div>
+        </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="spice-mix.jpg" class="card-img-top" alt="Spice Mix">
+          <div class="card-body">
+            <h5 class="card-title">All-Purpose Spice Mix</h5>
+            <p class="card-text">A versatile blend of spices for all your cooking needs. Perfect for meats, vegetables, and more.</p>
+            <p class="price">$8.99</p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+            <img src="essential-oil.jpg" class="card-img-top" alt="Essential Oil">
+            <div class="card-body">
+                <h5 class="card-title">Lavender Essential Oil</h5>
+                <p class="card-text">Pure lavender essential oil for aromatherapy and relaxation. Known for its calming properties.</p>
+                <p class="price">$15.99</p>
+                <a href="#" class="btn btn-success">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+  <div class="container">
+    <h2 class="section-title">What Our Customers Are Saying</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="testimonial-card">
+          <img src="customer.jpg" alt="Happy customer">
+          <h5 class="mb-1">Jane Doe</h5>
+          <p class="text-muted mb-2">Nutritionist & Wellness Coach</p>
+          <p>"NatureStack products have completely changed my health routine! Their herbal teas are incredibly soothing, and I love how natural and fresh everything tastes. You can feel the care and quality in every product. Highly recommended for anyone who values wellness!"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="py-5 bg-success text-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Subscribe for Ebooks and Consultations</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form class="row g-3">
+          <div class="col-md-9">
+            <input type="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <div class="col-md-3">
+            <button type="submit" class="btn btn-light w-100">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <p>&copy; 2025 NatureStack | AkunaFarms</p>
+    <div>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
